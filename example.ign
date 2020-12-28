@@ -1,0 +1,15 @@
+{
+  "ignition": {
+    "version": "3.2.0"
+  },
+  "passwd": {
+    "users": [
+      {
+        "name": "core",
+        "sshAuthorizedKeys": [
+          "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC/3+oKYk8N0tzbaxexhA5BNUAAzpUzh9zWXSM6cdabqFnm9C3xPb6qEQkfU+1RGgt05bOiqeonW1yHix1lTzjSI0rS7wGVdpXBeclstRkxwjtGe1h/i7SIB7dMJn7F7LmSpEkt2k/joRykmpxcxsJQv/mB5uQYlhUxq4PkN6DZx65y4KNDlf2k9+9TeqJCPBOTNBIqLpxR8nrLKimN3e0NgcuW2r+aXrMppMjlk0i9ahQVkgMMK48Bn9JyUTgRebCJKWCe0dA0d5C8MROztVTx724Oog3yAtBbQFVlo+Qjs0z9LBakpIG61V45THEp7JUZUV9DHMDbgKpgjTcS+Ym3F00JXTYcdFeJDp3veA15wZtgVCve4PcPwkz+ywk5kc/Irp/xEC2le6tp8ACK8Ff7htDRvSvg73Lad9GWVsQdJtpmJ+lIpeCmRQgXA0c0sJ5mdPmE6+CwE5tp9DyFlSUMf0MPWmcMzmkkxnf/KnkugxWxdlC+JXIfcKRx+Oy8WBU= ncuxo@ncuxo"
+        ]
+      }
+    ]
+  }
+}
