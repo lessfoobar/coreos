@@ -54,7 +54,7 @@
           "name": "root"
         },
         "contents": {
-          "source": "https://github.com/lessfoobar/coreos/blob/main/var"
+          "source": "https://192.168.29.88/tftpboot/var"
         },
         "mode": 256
       },
@@ -107,7 +107,7 @@
       {
         "device": "/dev/disk/by-partlabel/root",
         "keyFile": {
-          "source": "https://github.com/lessfoobar/coreos/blob/main/root"
+          "source": "https://192.168.29.88/tftpboot/root"
         },
         "label": "luks-root",
         "name": "root",
@@ -116,7 +116,7 @@
       {
         "device": "/dev/disk/by-partlabel/var",
         "keyFile": {
-          "source": "https://github.com/lessfoobar/coreos/blob/main/var"
+          "source": "https://192.168.29.88/tftpboot/var"
         },
         "label": "luks-var",
         "name": "var",
