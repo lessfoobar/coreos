@@ -8,10 +8,28 @@
         "name": "core",
         "noUserGroup": true,
         "sshAuthorizedKeys": [
-          "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBuDU+jMLe+4iwCeNulK60hxCPaLrsvVSILcpeF9kFQs lessfoobar@lessfoobar.monivagroup.com"
+          "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBuDU+jMLe+4iwCeNulK60hxCPaLrsvVSILcpeF9kFQs lessfoobar@lessfoobar"
         ],
         "shell": "/bin/bash",
         "uid": 5000
+      }
+    ]
+  },
+  "storage": {
+    "disks": [
+      {
+        "device": "/dev/sda",
+        "partitions": [
+          {
+            "label": "root",
+            "number": 4
+          },
+          {
+            "label": "var",
+            "sizeMiB": 0,
+            "startMiB": 10240
+          }
+        ]
       }
     ]
   }
