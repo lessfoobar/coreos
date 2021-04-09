@@ -5,11 +5,14 @@
   "passwd": {
     "users": [
       {
-        "name": "fcos",
+        "name": "core",
+        "noUserGroup": true,
         "sshAuthorizedKeys": [
-        "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINvG3fGw+P2k6L/R3Xg7IgxtvtDgce0Ecghnw6MT168J lessfoobar@lessfoobar"
+          "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBuDU+jMLe+4iwCeNulK60hxCPaLrsvVSILcpeF9kFQs lessfoobar@lessfoobar.monivagroup.com"
         ],
-       }
+        "shell": "/bin/bash",
+        "uid": 5000
+      }
     ]
   }
 }
